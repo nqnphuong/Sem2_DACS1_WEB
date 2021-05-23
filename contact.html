@@ -21,6 +21,11 @@
 </head>
 
 <body>
+    <!-- Bot-to-top -->
+    <link rel="stylesheet" href="/css/bot-to-top.css">
+    <script src="/JS/back-to-top.js"></script>
+    <a href="#" class="cd-top cd-is-visible cd-fade-out">Back To Top</a>
+
     <div class=site-mobile-menu>
         <div class=site-mobile-menu-header>
             <div class=site-mobile-menu-close>
@@ -37,7 +42,14 @@
                 </a>
                 <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
                     <li><a href=index-2.html>TRANG CHỦ</a></li>
-                    <li><a href=events.html>SỰ KIỆN</a></li>
+                    <li class="has-children">
+                        <a>SỰ KIỆN</a>
+                        <ul class="dropdown">
+                            <li><a href="/events.html">TIN TỨC</a></li>
+                            <li><a href="/events.at.html">ẨM THỰC</a></li>
+                            <li><a href="/events.tt.html">PHONG TỤC</a></li>
+                        </ul>
+                    </li>
                     <li><a href=gallery.html>THƯ VIỆN</a></li>
                     <li><a href=about.html>VỀ CHÚNG TÔI</a></li>
                     <li class=active><a href=contact.html>LIÊN HỆ</a></li>
@@ -107,22 +119,16 @@
                     </div>
                 </div>
                 <div class=col-lg-8 data-aos=fade-up data-aos-delay=200>
-                    <form action=#>
+                    <form action="https://formspree.io/f/xleajqda" method="POST">
                         <div class=row>
-                            <div class="col-6 mb-3">
-                                <input type=text class=form-control placeholder="Your Name">
+                            <div class="col-12 mb-3 ">
+                                <input type=emailtype="email" name="_replyto" class=form-control placeholder="Your Email ">
                             </div>
-                            <div class="col-6 mb-3">
-                                <input type=email class=form-control placeholder="Your Email">
-                            </div>
-                            <div class="col-12 mb-3">
-                                <input type=text class=form-control placeholder=Subject>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <textarea name id cols=30 rows=7 class=form-control placeholder=Message></textarea>
+                            <div class="col-12 mb-3 ">
+                                <textarea name="message" id cols=30 rows=7 class=form-control placeholder=Message></textarea>
                             </div>
                             <div class=col-12>
-                                <input type=submit value="Gửi mail" class="btn btn-primary">
+                                <input type=submit value="Gửi mail " class="btn btn-primary ">
                             </div>
                         </div>
                     </form>
@@ -145,7 +151,7 @@
                     </div>
                     <div class=widget>
                         <h3>Liên lạc</h3>
-                        <ul class="list-unstyled social">
+                        <ul class="list-unstyled social ">
                             <li><a href=#><span class=icon-instagram></span></a></li>
                             <li><a href=#><span class=icon-twitter></span></a></li>
                             <li><a href=#><span class=icon-facebook></span></a></li>
@@ -153,11 +159,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 ml-auto">
+                <div class="col-lg-2 ml-auto ">
                     <div class=widget>
                         <h3>Thông báo</h3>
-                        <ul class="list-unstyled float-left links">
-                            <ul class="list-unstyled float-left links">
+                        <ul class="list-unstyled float-left links ">
+                            <ul class="list-unstyled float-left links ">
                                 <li><a href=/events.html>TOP THAI BRANDS HCM 2021 – Triển lãm thương hiệu hàng đầu Thái Lan tại TP. HCM</a></li>
                                 <li><a href=/events.at.html>PHỞ HÀ NỘI - ẨM THỰC ĐẶC SẮC VIỆT NAM</a></li>
                                 <li><a href=/events.tt.html>MÂM NGŨ QUẢ NGÀY TẾT: Ý NGHĨA, CÁCH TRÌNH BÀY VÀ SAI LẦM CẦN TRÁNH</a></li>
@@ -169,16 +175,16 @@
                     <div class=widget>
                         <h3>Liên lạc</h3>
                         <address>Nguyễn Quỳnh Nhật Phương - 20IT854</address>
-                        <ul class="list-unstyled links mb-4">
-                            <li><a href=tel://11234567890>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</a></li>
-                            <li><a href=tel://11234567890>0776914256</a></li>
-                            <li><a href=https://nqnphuong.20it6@vku.udn.vn>[nqnphuong.20it6@vku.udn.vn]</span></a></li>
+                        <ul class="list-unstyled links mb-4 ">
+                            <li>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</li>
+                            <li>0776914256</li>
+                            <li>nqnphuong.20it6@vku.udn.vn</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-12 text-center">
+            <div class="row mt-5 ">
+                <div class="col-12 text-center ">
                     <p>
                         Copyright &copy;
                         <script data-cfasync=false src=../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js></script>
@@ -205,15 +211,15 @@
     <script src=js/jquery.fancybox.min.js></script>
     <script src=js/aos.js></script>
     <script src=js/custom.js></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13 "></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
             dataLayer.push(arguments)
         }
-        gtag("js", new Date());
-        gtag("config", "UA-23581568-13");
+        gtag("js ", new Date());
+        gtag("config ", "UA-23581568-13 ");
     </script>
 </body>
 

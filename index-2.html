@@ -17,10 +17,15 @@
     <link rel=stylesheet href=css/aos.css>
     <link rel=stylesheet href=css/style.css>
     <link rel="shortcut icon" href=/images/index/logo/logo_b1.png />
-    <title>AIOV</title>
+    <title>OIAV</title>
 </head>
 
 <body>
+    <!-- Bot-to-top -->
+    <link rel="stylesheet" href="/css/bot-to-top.css">
+    <script src="/JS/back-to-top.js"></script>
+    <a href="#" class="cd-top cd-is-visible cd-fade-out">Back To Top</a>
+
     <div class=site-mobile-menu>
         <div class=site-mobile-menu-header>
             <div class=site-mobile-menu-close>
@@ -37,7 +42,14 @@
                 </a>
                 <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
                     <li class=active><a href=index-2.html>TRANG CHỦ</a></li>
-                    <li><a href=events.html>SỰ KIỆN</a></li>
+                    <li class="has-children">
+                        <a>SỰ KIỆN</a>
+                        <ul class="dropdown">
+                            <li><a href="/events.html">TIN TỨC</a></li>
+                            <li><a href="/events.at.html">ẨM THỰC</a></li>
+                            <li><a href="/events.tt.html">PHONG TỤCS</a></li>
+                        </ul>
+                    </li>
                     <li><a href=gallery.html>THƯ VIỆN</a></li>
                     <li><a href=about.html>VỀ CHÚNG TÔI</a></li>
                     <li><a href=contact.html>LIÊN HỆ</a></li>
@@ -55,12 +67,14 @@
                 <div class=col-12>
                     <div class="row justify-content-center">
                         <div class="col-lg-6 text-center">
-                            <span class=caption data-aos=fade-up data-aos-delay=0>lưu giữ tinh hoa ẩm thực Việt</span>
-                            <h1 class="mb-4 heading text-white" data-aos=fade-up data-aos-delay=100>AIOV</h1>
+                            <span class=caption data-aos=fade-up data-aos-delay=0>lưu giữ tinh hoa ẩm thực
+                                Việt</span>
+                            <h1 class="mb-4 heading text-white" data-aos=fade-up data-aos-delay=100>OIAV</h1>
                             <div class="mb-4 text-white desc" data-aos=fade-up data-aos-delay=200>
                                 <p>
                                     Ẩm thực Việt Nam là một bức tranh đầy màu sắc, nêu bật lên bản sắc riêng của từng dân tộc, vùng miền nhưng chúng vẫn mang trong mình cốt cách, linh hồn Việt đồng nhất. Đậm đà vị dân tộc không thể xóa nhòa.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -83,7 +97,9 @@
                 <div class="col-lg-3 text-center text-lg-left" data-aos=fade-up data-aos-delay=0>
                     <div class="heading mb-4">
                         <span class=subtitle>Danh sách</span>
-                        <h3>ẩm thực <strong class=text-primary><hr>BẮC TRUNG NAM</strong></h3>
+                        <h3>ẩm thực <strong class=text-primary>
+                                <hr>BẮC TRUNG NAM
+                            </strong></h3>
                     </div>
                     <ul class="list-unstyled untree_co-tab-nav js-custom-dots">
                         <li class=active>
@@ -422,9 +438,11 @@
                     <div class=widget>
                         <h3>Thông báo</h3>
                         <ul class="list-unstyled float-left links">
-                            <li><a href=/events.html>TOP THAI BRANDS HCM 2021 – Triển lãm thương hiệu hàng đầu Thái Lan tại TP. HCM</a></li>
+                            <li><a href=/events.html>TOP THAI BRANDS HCM 2021 – Triển lãm thương hiệu hàng đầu Thái Lan
+                                    tại TP. HCM</a></li>
                             <li><a href=/events.at.html>PHỞ HÀ NỘI - ẨM THỰC ĐẶC SẮC VIỆT NAM</a></li>
-                            <li><a href=/events.tt.html>MÂM NGŨ QUẢ NGÀY TẾT: Ý NGHĨA, CÁCH TRÌNH BÀY VÀ SAI LẦM CẦN TRÁNH</a></li>
+                            <li><a href=/events.tt.html>MÂM NGŨ QUẢ NGÀY TẾT: Ý NGHĨA, CÁCH TRÌNH BÀY VÀ SAI LẦM CẦN
+                                    TRÁNH</a></li>
                         </ul>
                     </div>
                 </div>
@@ -432,10 +450,10 @@
                     <div class=widget>
                         <h3>Liên lạc</h3>
                         <address>Nguyễn Quỳnh Nhật Phương - 20IT854</address>
-                        <ul class="list-unstyled links mb-4">
-                            <li><a href=tel://11234567890>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</a></li>
-                            <li><a href=tel://11234567890>0776914256</a></li>
-                            <li><a href=https://nqnphuong.20it6@vku.udn.vn>[nqnphuong.20it6@vku.udn.vn]</span></a></li>
+                        <ul class="list-unstyled links mb-4 ">
+                            <li>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</li>
+                            <li>0776914256</li>
+                            <li>nqnphuong.20it6@vku.udn.vn</li>
                         </ul>
                     </div>
                 </div>
@@ -453,6 +471,10 @@
             </div>
         </div>
     </div>
+
+
+
+
     <div id=overlayer></div>
     <div class=loader>
         <div class=spinner-border role=status>

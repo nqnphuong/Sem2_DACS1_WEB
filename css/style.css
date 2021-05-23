@@ -87,7 +87,7 @@ h3,
 h4,
 .h4 {
     font-family: "Playfair Display", serif;
-    color: #black
+    color: black
 }
 
 .btn {
@@ -308,7 +308,7 @@ h4,
 .site-nav a {
     position: relative;
     z-index: 9;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .site-nav h1 {
@@ -330,8 +330,9 @@ h4,
     padding: 10px 15px;
     display: inline-block;
     text-decoration: none!important;
-    color: rgba(255, 255, 255, 0.5);
-    position: relative
+    color: rgba(255, 255, 255, 0.603);
+    position: relative;
+    text-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.486);
 }
 
 .site-nav .site-navigation .site-menu>li>a:hover {
@@ -358,7 +359,7 @@ h4,
 }
 
 .site-nav .site-navigation .site-menu>li.active>a {
-    color: #fff
+    color: #fff;
 }
 
 .site-nav .site-navigation .site-menu .has-children {
@@ -385,19 +386,20 @@ h4,
 .site-nav .site-navigation .site-menu .has-children .dropdown {
     visibility: hidden;
     opacity: 0;
-    top: 100%;
+    top: 105%;
     z-index: 999;
     position: absolute;
     text-align: left;
     -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
-    padding: 20px 0;
-    margin-top: 20px;
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
     margin-left: 0;
-    background: #fff;
+    background: #fee2b3;
     -webkit-transition: .2s 0s;
     -o-transition: .2s 0s;
-    transition: .2s 0s
+    transition: .2s 0s;
+    line-height: 25px !important;
+    border-radius: 10px;
 }
 
 .site-nav .site-navigation .site-menu .has-children .dropdown.arrow-top {
@@ -451,7 +453,8 @@ h4,
 }
 
 .site-nav .site-navigation .site-menu .has-children .dropdown>li>a:hover {
-    color: #ff5200
+    color: #FFF;
+    background-color: #ff4f0f71;
 }
 
 .site-nav .site-navigation .site-menu .has-children .dropdown>li.active>a {

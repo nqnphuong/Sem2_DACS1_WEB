@@ -21,6 +21,11 @@
 </head>
 
 <body>
+    <!-- Bot-to-top -->
+    <link rel="stylesheet" href="/css/bot-to-top.css">
+    <script src="/JS/back-to-top.js"></script>
+    <a href="#" class="cd-top cd-is-visible cd-fade-out">Back To Top</a>
+
     <div class=site-mobile-menu>
         <div class=site-mobile-menu-header>
             <div class=site-mobile-menu-close>
@@ -37,7 +42,14 @@
                 </a>
                 <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
                     <li><a href=index-2.html>TRANG CHỦ</a></li>
-                    <li><a href=events.html>SỰ KIỆN</a></li>
+                    <li class="has-children">
+                        <a>SỰ KIỆN</a>
+                        <ul class="dropdown">
+                            <li><a href="/events.html">TIN TỨC</a></li>
+                            <li><a href="/events.at.html">ẨM THỰC</a></li>
+                            <li><a href="/events.tt.html">PHONG TỤC</a></li>
+                        </ul>
+                    </li>
                     <li class=active><a href=gallery.html>THƯ VIỆN</a></li>
                     <li><a href=about.html>VỀ CHÚNG TÔI</a></li>
                     <li><a href=contact.html>LIÊN HỆ</a></li>
@@ -158,10 +170,10 @@
                     <div class=widget>
                         <h3>Liên lạc</h3>
                         <address>Nguyễn Quỳnh Nhật Phương - 20IT854</address>
-                        <ul class="list-unstyled links mb-4">
-                            <li><a href=tel://11234567890>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</a></li>
-                            <li><a href=tel://11234567890>0776914256</a></li>
-                            <li><a href=https://nqnphuong.20it6@vku.udn.vn>[nqnphuong.20it6@vku.udn.vn]</span></a></li>
+                        <ul class="list-unstyled links mb-4 ">
+                            <li>Sinh viên Công nghệ thông tin - Đại học Công nghệ thông tin và truyền thông - Việt Hàn</li>
+                            <li>0776914256</li>
+                            <li>nqnphuong.20it6@vku.udn.vn</li>
                         </ul>
                     </div>
                 </div>
