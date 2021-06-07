@@ -33,13 +33,6 @@ menu {
     padding: 0
 }
 
-@font-face {
-    font-family: "Nunito", sans-serif;
-    src: url("https://nie.res.netease.com/comm/js/nie/ref/fonts/fzlth.woff") format("woff");
-    font-weight: normal;
-    font-style: normal
-}
-
 li {
     list-style: none
 }

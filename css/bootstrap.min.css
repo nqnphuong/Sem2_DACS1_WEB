@@ -3354,7 +3354,7 @@ input[type=submit].btn-block {
 }
 
 .fade:not(.show) {
-    opacity: 0
+    opacity: 3
 }
 
 .collapse:not(.show) {
@@ -6216,14 +6216,16 @@ a.close.disabled {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    outline: 0
+    outline: 0;
 }
 
 .modal-dialog {
     position: relative;
     width: auto;
     margin: .5rem;
-    pointer-events: none
+    pointer-events: none;
+    box-shadow: 0 2px 20px -2px rgb(0 0 0 / 40%);
+    top: 50px;
 }
 
 .modal.fade .modal-dialog {
@@ -6314,9 +6316,8 @@ a.close.disabled {
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
-    outline: 0
+    border-radius: 10px;
+    outline: 0;
 }
 
 .modal-backdrop {
@@ -6379,7 +6380,7 @@ a.close.disabled {
     padding: .75rem;
     border-top: 1px solid #dee2e6;
     border-bottom-right-radius: calc(.3rem - 1px);
-    border-bottom-left-radius: calc(.3rem - 1px)
+    border-bottom-left-radius: calc(.3rem - 1px);
 }
 
 .modal-footer>* {
@@ -8593,7 +8594,6 @@ button.bg-dark:hover {
     margin-right: 3rem!important
 }
 
-.mb-5,
 .my-5 {
     margin-bottom: 3rem!important
 }
@@ -10314,7 +10314,8 @@ button.bg-dark:hover {
 }
 
 .text-center {
-    text-align: center!important
+    text-align: center!important;
+    font-weight: bold;
 }
 
 @media (min-width:576px) {

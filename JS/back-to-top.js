@@ -1,4 +1,4 @@
-var btn = $('#button');
+var btn = $('btn');
 jQuery(document).ready(function($) {
     // browser window scroll (in pixels) after which the "back to top" link is shown
     var offset = 500,
